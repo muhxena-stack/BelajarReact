@@ -1,0 +1,46 @@
+.button {
+  font-family: "Poppins", sans-serif;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  padding: 12px 22px;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  color: white;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Mode Santai */
+.santai {
+  background: linear-gradient(135deg, #0ea5e9, #38bdf8);
+  box-shadow: 0 0 15px rgba(56, 189, 248, 0.6);
+}
+
+.santai:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 0 25px rgba(56, 189, 248, 0.8);
+}
+
+/* Mode Bantai */
+.bantai {
+  background: linear-gradient(135deg, #ef4444, #b91c1c);
+  box-shadow: 0 0 15px rgba(239, 68, 68, 0.6);
+}
+
+.bantai:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 25px rgba(239, 68, 68, 0.8);
+}
+
+/* Mode Ngetroll */
+.ngetroll {
+  background: linear-gradient(135deg, #a855f7, #7e22ce);
+  box-shadow: 0 0 15px rgba(168, 85, 247, 0.6);
+}
+
+.ngetroll:hover {
+  transform: rotate(-2deg) scale(1.08);
+  box-shadow: 0 0 25px rgba(168, 85, 247, 0.8);
+}
